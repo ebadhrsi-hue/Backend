@@ -6,7 +6,7 @@ import { getOutputPath } from "../utils/paths.js";
 const router = express.Router();
 
 
-const PYTHON_PATH = python//"C:/Users/Ebad Ur Rehman/AppData/Local/Programs/Python/Python313/python.exe";
+const PYTHON_PATH ="/usr/bin/python3";//"C:/Users/Ebad Ur Rehman/AppData/Local/Programs/Python/Python313/python.exe";
 
 // Expect key: file
 router.post("/", async (req, res) => {
