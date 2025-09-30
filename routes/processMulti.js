@@ -12,7 +12,7 @@ const router = express.Router();
 
 //const PYTHON_PATH = "D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
 
-const PYTHON_PATH = "/usr/bin/python3"; //"D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
+const PYTHON_PATH = ".\\venv\\Scripts\\python.exe" //"D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
 
 router.post("/", async (req, res) => {
   try {
