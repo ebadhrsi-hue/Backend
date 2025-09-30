@@ -8,7 +8,6 @@ import jwt from "jsonwebtoken";
 // Extract user from token
 
 
-
 const router = express.Router();
 <<<<<<< HEAD
 const PYTHON_PATH = "D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
