@@ -9,11 +9,10 @@ import jwt from "jsonwebtoken";
 
 
 const router = express.Router();
-<<<<<<< HEAD
+
 const PYTHON_PATH = "D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
-=======
-const PYTHON_PATH = python3 //"D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
->>>>>>> 494437c (Updated processMulti and processSingle routes)
+
+//const PYTHON_PATH = python3 //"D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
 
 router.post("/", async (req, res) => {
   try {
