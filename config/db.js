@@ -1,4 +1,8 @@
 import sql from "mssql";
+import dotenv from 'dotenv';
+dotenv.config(); // 👈 Add this
+
+
 
 const poolPromise = new sql.ConnectionPool({
   user: process.env.DB_USER,

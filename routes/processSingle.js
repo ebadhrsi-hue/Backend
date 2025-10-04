@@ -7,7 +7,8 @@ import { getOutputPath } from "../utils/paths.js";
 const router = express.Router();
 
 // Path to your Python executable
-const PYTHON_PATH = path.resolve(__dirname, "../venv/Scripts/python.exe");//".\\venv\\Scripts\\python.exe" //"D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
+//const PYTHON_PATH = path.resolve(__dirname, "../venv/Scripts/python.exe");//".\\venv\\Scripts\\python.exe" //
+const PYTHON_PATH ="D:\\EBAD-PROFILEDATA\\Documents\\ana\\python.exe";
 
 router.post("/", async (req, res) => {
   try {
